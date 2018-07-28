@@ -1,0 +1,19 @@
+{% extends "base.html"%}
+{% block content %}
+
+{% load static %}
+<div class="row">
+  <div class="col-sm-3">
+    <h1>{{request.user}}</h1>
+  </div>
+  <div class="col-xs-9">
+    {{ object.content }}<br><hr>
+    <!-- {{ object.user }}<br>
+    {{ object.timestamp }}<br>
+    {{ object.timestamp|timesince }} -->
+  </div>
+
+</div>
+
+
+{% endblock content %}
