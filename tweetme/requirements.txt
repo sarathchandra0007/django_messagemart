@@ -35,5 +35,5 @@ stripe==2.1.0
 tabulate==0.7.5
 termcolor==1.1.0
 text-unidecode==1.2
-urllib3==1.23
+urllib3==1.26.5
 wincertstore==0.2
